@@ -1,0 +1,29 @@
+{
+  "name": "lightweight-chart-library",
+  "version": "1.0.4",
+  "description": "A simple, dependency-rich library for generating basic charts with Chart.js and d3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandrarubi/lightweight-chart-library"
+  },
+  "keywords": [
+    "charts",
+    "d3",
+    "chart.js",
+    "visualization",
+    "data"
+  ],
+  "author": "Maxim Korolitsky",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "d3-scale": "^4.0.0",
+    "chroma-js": "^2.1.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "debounce": "^1.2.0"
+  }
+}
